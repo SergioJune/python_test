@@ -17,3 +17,12 @@ print(m.group())
 g = re_mail.match(b)
 print(g.group())
 
+
+# 版本二：
+a = '<Tom Paris> tom@voyager.org => Tom Paris'
+b = 'bob@example.com => bob'
+mail = re.compile('([\w]+|[<>\w\s]+)@[\w]+.[\w]+')
+aa = mail.match(a)
+bb = mail.match(b)
+print(aa.group())
+print(bb.group())
