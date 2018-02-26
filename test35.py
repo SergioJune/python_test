@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-'练习分布式进程'
+'练习分布式进程 '
 
 __author__ = 'sergiojune'
 import queue, random
